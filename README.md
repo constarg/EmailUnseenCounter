@@ -12,7 +12,7 @@
   results=readUnseen.getUnseen()
   print(results)
   ```
-  it will print this results
+  it will print those results
   ```string
   {'email_1': 'FAILED'}
   ```
