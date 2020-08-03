@@ -6,13 +6,13 @@
     "password":"your password"
 }
   ```
-  then the output it will be
+  and execute this code
   ```python
   readUnseen=EmailUnreadCount()
   results=readUnseen.getUnseen()
   print(results)
   ```
-  it will print those results
+  then the output it will be like this
   ```string
   {'email_1': 'FAILED'}
   ```
