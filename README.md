@@ -16,7 +16,7 @@
   ```string
   {'email_1': 'FAILED'}
   ```
- don't worry about the FAILED, this happens because the script has no correct credentials. Just replace the credentials on the given json file and it will run correctly.Now if you want to get only the count of unseen emails, you should execute the previous code like this:
+ don't worry about the FAILED, this happens because the script didn't have the correct email credentials. Just replace the credentials on the json file and it will run correctly.Now if you want to get only the count of unseen emails, you should execute the previous code like this:
  ```python
   readUnseen=EmailUnreadCount()
   results=readUnseen.getUnseen()
