@@ -6,7 +6,7 @@
     "password":"your password"
 }
   ```
-  then the code below 
+  then the output it will be
   ```python
   readUnseen=EmailUnreadCount()
   results=readUnseen.getUnseen()
