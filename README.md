@@ -6,7 +6,7 @@
     "password":"your password"
 }
   ```
-  then the below code
+  then the code below 
   ```python
   readUnseen=EmailUnreadCount()
   results=readUnseen.getUnseen()
@@ -22,7 +22,7 @@
   results=readUnseen.getUnseen()
   print(results['email_1'])
   ```
-  and if you have more than one email you can also run the previous code like this:
+  and if you have more than one email accounts, you can also run the previous code like this:
  ```python
 readUnseen=EmailUnreadCount()
 results=readUnseen.getUnseen()
