@@ -30,3 +30,9 @@ keys=results.keys()
 for i in keys:
 	print("email: ",i," has ",results[i]," unseen emails.")
 ```
+# 2-Step Verification.
+If you have enabled the <b>2-Step Verification</b>, you should create an app password.
+On Gmail services you can create an app password by going to below settings.
+```string
+Manage your Google Account > Scurity > App passwords
+```
