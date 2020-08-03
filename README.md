@@ -8,7 +8,7 @@
   ```
   and execute this code
   ```python
-  readUnseen=EmailUnreadCount()
+  readUnseen=EmailCounter()
   results=readUnseen.getUnseen()
   print(results)
   ```
@@ -18,13 +18,13 @@
   ```
  don't worry about the FAILED, this happens because the script didn't have the correct email credentials. Just replace the credentials on the json file and it will run correctly.Now if you want to get only the count of unseen emails, you should execute the previous code like this:
  ```python
-  readUnseen=EmailUnreadCount()
+  readUnseen=EmailCounter()
   results=readUnseen.getUnseen()
   print(results['email_1'])
   ```
   and if you have more than one email accounts, you can also run the previous code like this:
  ```python
-readUnseen=EmailUnreadCount()
+readUnseen=EmailCounter()
 results=readUnseen.getUnseen()
 keys=results.keys()
 for i in keys:
