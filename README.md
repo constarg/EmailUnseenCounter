@@ -32,7 +32,7 @@ for i in keys:
 ```
 # 2-Step Verification
 If you have enabled the <b>2-Step Verification</b>, you should create an app password.
-On Gmail services you can create an app password by going to below settings.
+On Gmail services you can create an app password by going to the settings below.
 ```string
 Manage your Google Account > Scurity > App passwords
 ```
